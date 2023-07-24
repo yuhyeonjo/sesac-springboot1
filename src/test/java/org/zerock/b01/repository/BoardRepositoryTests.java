@@ -11,6 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.TestPropertySource;
 import org.zerock.b01.domain.Board;
+import org.zerock.b01.dto.BoardDTO;
 
 import java.util.List;
 import java.util.Optional;
@@ -127,4 +128,6 @@ public class BoardRepositoryTests{
 
         result.getContent().forEach(board -> log.info(board));
     }
+
+
 }
